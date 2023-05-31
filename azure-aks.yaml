@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mypythondockerrepo
-        image: convibe.azurecr.io/cokpu1/mypythondockerrepo:latest
+        image: kubemaster2.azurecr.io/cokpu1/mypythondockerrepo:latest
         ports:
         - containerPort: 5000
 # service type loadbalancer       
